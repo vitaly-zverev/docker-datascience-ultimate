@@ -8,4 +8,4 @@ s3fs==2022.11.0
 spylon-kernel
 numpy
 nbdime
-GitPython
+jupyterlab-git
