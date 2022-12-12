@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vitaly-zverev/docker-datascience-ultimate/HEAD?labpath=demo/demo.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vitaly-zverev/docker-datascience-ultimate/HEAD?labpath=demo.ipynb)
 
 # Data Science Ultimate Docker images
 
