@@ -2,7 +2,6 @@
 
 # Data Science Ultimate Docker images
 
-[![CI](https://github.com/FranzDiebold/docker-datascience-ultimate/actions/workflows/ci.yml/badge.svg)](https://github.com/FranzDiebold/docker-datascience-ultimate/actions/workflows/ci.yml)
 [![GitHub](https://img.shields.io/github/license/FranzDiebold/docker-datascience-ultimate)](./LICENSE)
 
 Customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) images packed with everything you need.
