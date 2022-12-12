@@ -1,5 +1,6 @@
+docker-datascience-ultimate/datascience-ultimate-server/
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vitaly-zverev/docker-datascience-ultimate/HEAD?labpath=demo/demo.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vitaly-zverev/docker-datascience-ultimate/datascience-ultimate-server/HEAD?labpath=demo/demo.ipynb)
 
 # Data Science Ultimate Docker images
 
