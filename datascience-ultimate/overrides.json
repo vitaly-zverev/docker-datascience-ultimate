@@ -1,30 +1,4 @@
 {
-  "@jupyterlab/console-extension:tracker": {
-    "autoClosingBrackets": true
-  },
-  "@jupyterlab/notebook-extension:tracker": {
-    "codeCellConfig": {
-      "autoClosingBrackets": true,
-      "showTrailingSpace": true
-    },
-    "markdownCellConfig": {
-      "autoClosingBrackets": true,
-      "showTrailingSpace": true
-    },
-    "rawCellConfig": {
-      "autoClosingBrackets": true,
-      "showTrailingSpace": true
-    }
-  },
-  "@jupyterlab/fileeditor-extension:plugin": {
-    "autoClosingBrackets": true
-  },
-  "@jupyterlab/filebrowser-extension:browser": {
-    "showHiddenFiles": true
-  },
-  "@jupyterlab/apputils-extension:themes": {
-    "theme": "@dunovank/jupyterlab_darkside_ui"
-  },
   "@ryantam626/jupyterlab_code_formatter:settings": {
     "formatOnSave": true,
     "preferences": {
