@@ -1,3 +1,6 @@
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vitaly-zverev/docker-datascience-ultimate/HEAD?labpath=demo/demo.ipynb)
+
 # Data Science Ultimate Docker images
 
 [![CI](https://github.com/FranzDiebold/docker-datascience-ultimate/actions/workflows/ci.yml/badge.svg)](https://github.com/FranzDiebold/docker-datascience-ultimate/actions/workflows/ci.yml)
