@@ -2,7 +2,7 @@
 
 # Data Science Ultimate Docker images
 
-[![GitHub](https://img.shields.io/github/license/FranzDiebold/docker-datascience-ultimate)](./LICENSE)
+[![GitHub](https://img.shields.io/github/license/vitaly-zverev/docker-datascience-ultimate)](./LICENSE)
 
 Customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) images packed with everything you need.
 
