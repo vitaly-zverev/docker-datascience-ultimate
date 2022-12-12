@@ -1,5 +1,12 @@
 {
-  "@ryantam626/jupyterlab_code_formatter:settings": {
+  
+    // @jupyterlab/apputils-extension:themes
+    // Theme manager settings.
+    // *************************************
+ "@jupyterlab/apputils-extension:themes": {
+   "theme": "JupyterLab Dark"
+ },  
+ "@ryantam626/jupyterlab_code_formatter:settings": {
     "formatOnSave": true,
     "preferences": {
       "default_formatter": {
