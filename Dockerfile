@@ -8,6 +8,8 @@ USER root
 # Graphviz
 RUN apt-get update --yes && \
     apt-get install --yes --no-install-recommends graphviz curl && \
+    curl -LO "https://github.com/lima-vm/lima/releases/download/v0.14.1/lima-0.14.1-Linux-x86_64.tar.gz" && \
+    cat lima-0.14.1-Linux-x86_64.tar.gz | tar Cxzvm /usr/local && rm -f lima-0.14.1-Linux-x86_64.tar.gz && \
     curl -LO https://github.com/abiosoft/colima/releases/download/v0.4.0/colima-Linux-x86_64  && \
     install colima-Linux-x86_64 /usr/local/bin/colima && rm -f colima-Linux-x86_64 \
     apt-get clean && rm -rf /var/lib/apt/lists/*
