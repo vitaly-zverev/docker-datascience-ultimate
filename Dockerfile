@@ -9,7 +9,7 @@ USER root
 RUN apt-get update --yes && \
     apt-get install --yes --no-install-recommends graphviz curl && \
     curl -LO https://github.com/abiosoft/colima/releases/download/v0.4.0/colima-Linux-x86_64  && \
-    install colima-Linux-x86_64 /usr/local/bin/colima && \
+    install colima-Linux-x86_64 /usr/local/bin/colima && rm -f colima-Linux-x86_64 \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 USER ${NB_UID}
