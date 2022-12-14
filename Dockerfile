@@ -16,8 +16,8 @@ USER ${NB_UID}
 RUN mamba install --quiet --yes gcc && \
     mamba clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
-    fix-permissions "/home/${NB_USER}" && 
-    curl -LO https://github.com/abiosoft/colima/releases/download/v0.4.0/colima-$(uname)-$(uname -m) && 
+    fix-permissions "/home/${NB_USER}" && \
+    curl -LO https://github.com/abiosoft/colima/releases/download/v0.4.0/colima-$(uname)-$(uname -m) && \
     install colima-$(uname)-$(uname -m) /usr/local/bin
 
 COPY --chown=${NB_UID}:${NB_GID} requirements.txt /tmp/
