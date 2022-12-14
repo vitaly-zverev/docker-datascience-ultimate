@@ -1,5 +1,8 @@
 FROM jupyter/all-spark-notebook:x86_64-latest
 
+ARG NB_UID=1000
+ARG NB_GID=1000
+
 USER root
 
 # Graphviz
