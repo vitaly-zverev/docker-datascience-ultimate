@@ -7,7 +7,7 @@ USER root
 
 # Graphviz
 RUN apt-get update --yes && \
-    apt-get install --yes --no-install-recommends graphviz && \
+    apt-get install --yes --no-install-recommends graphviz curl && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 USER ${NB_UID}
@@ -16,7 +16,9 @@ USER ${NB_UID}
 RUN mamba install --quiet --yes gcc && \
     mamba clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
-    fix-permissions "/home/${NB_USER}"
+    fix-permissions "/home/${NB_USER}" && 
+    curl -LO https://github.com/abiosoft/colima/releases/download/v0.4.0/colima-$(uname)-$(uname -m) && 
+    install colima-$(uname)-$(uname -m) /usr/local/bin
 
 COPY --chown=${NB_UID}:${NB_GID} requirements.txt /tmp/
 
