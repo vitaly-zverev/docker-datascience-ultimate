@@ -7,7 +7,7 @@ USER root
 
 # Graphviz
 RUN apt-get update --yes && \
-    apt-get install --yes --no-install-recommends graphviz curl qemu-utils podman slirp4netns fuse-overlayfs uidmap && \
+    apt-get install --yes --no-install-recommends graphviz curl qemu-utils podman slirp4netns fuse-overlayfs uidmap qemu-system-x86 && \
     curl -LO "https://github.com/lima-vm/lima/releases/download/v0.14.1/lima-0.14.1-Linux-x86_64.tar.gz" && \
     cat lima-0.14.1-Linux-x86_64.tar.gz | tar Cxzvm /usr/local && rm -f lima-0.14.1-Linux-x86_64.tar.gz && \
     curl -LO https://github.com/abiosoft/colima/releases/download/v0.4.0/colima-Linux-x86_64  && \
